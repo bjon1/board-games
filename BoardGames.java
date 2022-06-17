@@ -21,13 +21,13 @@ public abstract class BoardGames implements ActionListener {
 
         //initialize the frame
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(800,800);
+        frame.setSize(800,600);
         frame.getContentPane().setBackground(new Color(50,50,50));
         frame.setLayout(new BorderLayout());
         frame.setVisible(true);
         //initialize the textfield
         textfield.setBackground(new Color(25, 25, 25));
-        textfield.setForeground(new Color(25, 255, 0));
+        textfield.setForeground(new Color(255, 255, 255)); //title color
         textfield.setFont(new Font("MV Boli", Font.BOLD, 80));
         textfield.setHorizontalAlignment(JLabel.CENTER);
         //textfield.setText("Tic-Tac-Toe");

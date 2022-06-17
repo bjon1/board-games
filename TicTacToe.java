@@ -40,7 +40,6 @@ public class TicTacToe extends BoardGames{
                 }
             }
         }
-
     }
     
     public void updateMovesData(int i, char c){ 
@@ -91,7 +90,6 @@ public class TicTacToe extends BoardGames{
         } else if(movesData[2] == sym && movesData[4] == sym && movesData[6] == sym){
             wins(2, 4, 6, winner);
         } 
-        numOfMoves = 0;
     }
 
     public void wins(int a, int b, int c, String winner){
