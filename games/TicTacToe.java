@@ -1,3 +1,5 @@
+package games;
+import board.BoardGames;
 import java.awt.*;
 import java.awt.event.*;
 
